@@ -8,7 +8,7 @@ import pandas as pd
 import streamlit as st
 import os
 
-st.title("📝 Big Arch Burger Likes - Text to Excel Converter")
+st.title("Convert Coded-opens TXT File to Excel")
 
 # File uploader
 uploaded_file = st.file_uploader("Upload your .txt file", type="txt")
